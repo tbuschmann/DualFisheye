@@ -927,7 +927,7 @@ class PanoramaGUI:
 
     # Set status text, and optionally update cursor.
     def _set_status(self, status, cursor='arrow'):
-        self.parent.config(cursor=cursor)
+        #self.parent.config(cursor=cursor)
         self.status.configure(text=status)
 
 def launch_tk_gui(flens='', fimg1='', fimg2=''):
